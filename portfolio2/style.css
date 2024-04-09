@@ -1,0 +1,148 @@
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: rgb(0, 0, 0); }
+  }
+*{
+    font-family:system-ui;
+    text-decoration: none;
+    
+}
+.navbar{
+    background-color: black;
+    padding-left: 30px; padding-right: 30px;
+    border-bottom: 5px;
+    border-color: white;
+    border-style: solid;
+   
+}
+.logo{
+    display: flex; align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: xx-large; font-weight: 600;
+    color: white;
+}
+li{
+    list-style: none;
+    display:inline-block ;
+    padding: 10px;
+}
+.dp{
+    border-radius: 50%;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 40px;
+    margin-bottom: 10px;;
+}
+.dp_back{
+    background-clip:url(videos/bgvid.mp4);
+    margin-left: 20px;
+    margin-right: 20px;
+    animation-name: dp;
+    animation-duration: 5s;
+}
+
+
+
+.p1 .p2 {
+    color: black;
+    ;
+    
+}
+.p1 span{
+    color: #ed004f;
+}
+.p1 span2{
+    color: rgb(162, 0, 255);
+}
+
+.block3{
+    text-align: center;
+    color:black;
+}
+
+.skills{
+    display: flex;
+    text-align: center;
+    
+    
+}
+.list{
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-top: 100px;
+}
+
+.b1{
+    border-radius: 10px ;
+    font-family: helvetica;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p2{
+    text-align: center;
+    color: #400bee;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+
+}
+
+.p1{
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+}
+
+.block1{
+    background-image: url(images/bg1.jpg);
+}
+
+.resume{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+    text-align: center;
+}
+
+.resb{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+#html:hover
+{
+    background-image: url(images/html.jpg);
+    color: white;
+    font-weight: 900;
+}
+
+.resume2{
+    display: flex;
+}
+
+.docgif{
+    padding-left: 100px;
+}
